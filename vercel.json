@@ -1,10 +1,10 @@
 {
     "version": 2,
-    "name": "music-album",
+    "name": "eStore-backend",
     "builds": [
-       { "src": "App.js", "use": "@vercel/node" }
+       { "src": "app.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/App.js" }
+       { "src": "/(.*)", "dest": "/app.js" }
     ]
  }

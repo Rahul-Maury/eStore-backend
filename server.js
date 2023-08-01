@@ -1,5 +1,5 @@
 
-const app=require("./App")
+const app=require("./app")
 const dotenv=require('dotenv');
 const ConnectDB=require('./config/database')
 const cloudinary=require("cloudinary");
